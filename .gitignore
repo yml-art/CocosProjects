@@ -1,0 +1,47 @@
+# Visual Studio 全量编译/中间文件（核心大文件排除）
+*.ipch
+*.pdb
+*.lib
+*.sdf
+*.suo
+*.obj
+*.o
+*.exe
+*.dll
+*.pch
+*.vc.db
+*.vc.opendb
+*.manifest
+*.cache
+*.ilk
+*.log
+vs/
+ipch/
+Debug/
+Release/
+x64/
+build/
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Cocos 框架/编译/临时文件
+cocos2d_x/
+cocos2d/
+extensions/
+external/
+bin/
+libs/
+obj/
+res/backup/
+classes/protobuf/
+*.userprefs
+
+# 系统/编辑器临时文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~

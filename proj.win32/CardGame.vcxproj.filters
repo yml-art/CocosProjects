@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils">
+      <UniqueIdentifier>{e698ee8e-9b15-480e-a27c-0b0467729a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\models">
+      <UniqueIdentifier>{e43f08df-93ff-4903-ada8-651331a61367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\configs">
+      <UniqueIdentifier>{08622bee-641a-44f7-838b-65b7047edddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\services">
+      <UniqueIdentifier>{08016630-01f0-4810-acf0-bb5bf82875ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\views">
+      <UniqueIdentifier>{9864e1ef-56c8-4ead-8e2a-29eaa01450b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\managers">
+      <UniqueIdentifier>{89a54b2d-8fce-4a89-a5fa-15da913fb657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\controllers">
+      <UniqueIdentifier>{47a51bc3-d558-4c5c-b957-94e6c3f8b661}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CommonUtils.cpp">
+      <Filter>Classes\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CardModel.cpp">
+      <Filter>Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UndoModel.cpp">
+      <Filter>Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameModel.cpp">
+      <Filter>Classes\models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelConfigLoader.cpp">
+      <Filter>Classes\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameModelGenerator.cpp">
+      <Filter>Classes\services</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CardView.cpp">
+      <Filter>Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameView.cpp">
+      <Filter>Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UndoManager.cpp">
+      <Filter>Classes\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LevelConfig.cpp">
+      <Filter>Classes\configs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp" />
+    <ClCompile Include="..\Classes\GameController.cpp">
+      <Filter>Classes\controllers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonDef.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CommonUtils.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CardModel.h">
+      <Filter>Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UndoModel.h">
+      <Filter>Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameModel.h">
+      <Filter>Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelConfig.h">
+      <Filter>Classes\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LevelConfigLoader.h">
+      <Filter>Classes\configs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameModelGenerator.h">
+      <Filter>Classes\services</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CardView.h">
+      <Filter>Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UndoManager.h">
+      <Filter>Classes\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h" />
+    <ClInclude Include="..\Classes\GameController.h">
+      <Filter>Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameView.h">
+      <Filter>Classes\views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\background_snow.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\card_back_blue.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\card_general.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\coin.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\star.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\undo_text.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\wild_btn.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\level1.json">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\cc_2x2_white_image">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>
